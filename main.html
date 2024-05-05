@@ -4,22 +4,25 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>HTML Assignment 3</title>
 </head>
 
 <body>
 	<h2 style="text-align:center">HTML Assignment #3</h2>
-	<table border=1 style="width:500px;height:50px">
-		<tr>
+
+	
+	<table id="table-1" class="middle" border=1 style="width:500px;height:50px">
+		<tr id="t11">
 			<td>left</td>
 			<td style="text-align:center">center</td>
 			<td style="text-align:right">right</td>
 		</tr>
-		<tr>
+		<tr class= "center" id="t12">
 			<td>left</td>
 			<td style="text-align:center">center</td>
-			<td style="text-align:right">right</td>
+			<td class= "right" style="text-align:right">right</td>
 		</tr>
-		<tr>
+		<tr id="t13">
 			<td>left</td>
 			<td style="text-align:center">center</td>
 			<td style="text-align:right">right</td>
@@ -29,8 +32,8 @@
 
 
 	
-	<table border=1 style="width:500px;height:100px;margin:50px 0">
-		    <tr><td colspan=6 ></td></tr>
+	<table id="table-2" class="middle" border=1 style="width:500px;height:100px;margin:50px 0">
+		    <tr ><td id="t21" colspan=6></td></tr>
 				<tr>
 					<td rowspan=4></td>
 					<td></td>
@@ -67,10 +70,10 @@
 
 
 	
-	<table style="border:1px solid">
-		<tr ><td style="background-color:green;height:20px;width:400px"> </td></tr>
-		<tr><td style="text-align:center"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="dtaimg"></td></tr>
-		<tr><td style="background-color:blue;height:20px;width:400px"></td></tr>
+	<table id="table-3" style="border:1px solid black; border-spacing:1px" class="middle">
+		<tr ><td style="background-color:green;height:20px;width:400px; padding:1px"> </td></tr>
+		<tr><td id="t-image" style="text-align:center;padding:1px"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="dtaimg"></td></tr>
+		<tr><td style="background-color:blue;height:20px;width:400px;padding:1px"></td></tr>
 	</table>
 
 </body>
